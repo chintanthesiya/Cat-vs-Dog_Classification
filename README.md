@@ -57,7 +57,8 @@ Repository: https://github.com/chintanthesiya/Cat-vs-Dog_Classification
 3. Choose repository `chintanthesiya/Cat-vs-Dog_Classification`.
 4. Select branch `main`.
 5. Set the main file path to `app.py`.
-6. Select **Deploy**.
+6. Before deploying, open the app settings and set **Python version** to `3.12`.
+7. Select **Deploy**.
 
 Streamlit Cloud installs the packages from `requirements.txt` and loads `model.pkl` from the repository root.
 
